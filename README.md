@@ -20,5 +20,8 @@ Explore and visualize the Iris dataset to understand feature distributions and r
 ### Libraries Used
 `pandas` `matplotlib` `seaborn`
 
+GitHub - https://github.com/Wahab-300/
+LinkedIn - https://www.linkedin.com/in/abdul-wahab-3993502a6/
+
 ---
 *DevelopersHub Corporation — Data Science & Analytics Internship*
