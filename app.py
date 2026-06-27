@@ -15,6 +15,11 @@ st.subheader("📋 Dataset Overview")
 st.write("Shape:", df.shape)
 st.dataframe(df.head())
 
+st.subheader("🔍 Filter by Species")
+species = st.selectbox("Select Species", df['species'].unique())
+filtered_df = df[df['species'] == species]
+st.dataframe(filtered_df)
+
 # Statistical Summary
 st.subheader("📊 Statistical Summary")
 st.dataframe(df.describe())
